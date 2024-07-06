@@ -1,0 +1,11 @@
+@import "theme-fn";
+
+.theme-green {
+    --primary: #5bd493;
+    --background-color: black;
+}
+
+.theme-red {
+    --primary: rgb(255, 50, 50);
+    --background-color: black;
+}

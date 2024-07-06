@@ -1,0 +1,19 @@
+<div class="container">
+    <div>
+        <pre>{{ display1 }}</pre>
+        @if (1 < step()) {
+            <app-progress-bar (onComplete)="animate(2)"></app-progress-bar>
+            {{ scrollToBottom() }}
+            <pre>{{ display2 }}</pre>
+        }
+
+        @if (2 < step()) {
+            <app-progress-bar (onComplete)="animate(3)"></app-progress-bar>
+            <pre>{{ display3 }}</pre>
+        }
+
+        @if (3 < step()) {
+            <app-progress-bar (onComplete)="ngOnDestroy()"></app-progress-bar>
+        }
+    </div>
+</div>

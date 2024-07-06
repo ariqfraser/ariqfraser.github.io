@@ -1,0 +1,27 @@
+@import "themes";
+
+button {
+    background-color: transparent;
+    color: get(--primary);
+    border: 2px solid transparent;
+    cursor: pointer;
+    padding: 0.75rem 3rem;
+
+    &:hover:not(.active) {
+        background-color: get(--color-hover);
+        border: 2px solid get(--primary);
+    }
+
+    &.active {
+        color: get(--bg-color);
+        background-color: get(--primary);
+        border: 2px solid get(--primary);
+        transform: scale(0.95);
+    }
+
+    &.full-width {
+        width: 100%;
+        padding: 0.75rem 0;
+        text-align: center;
+    }
+}

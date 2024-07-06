@@ -1,0 +1,43 @@
+ARQ-Tec Industries
+Copyright 2077 All Rights Reserved
+
+Initializing ARQ-TEC(TM) Development Environment...
+
+Please Wait...
+
+BOOT SEQUENCE INITIATED...
+
+Loading ARQ-TEC OS Version 4.0.6...
+---------------------------------------------------
+[███████████████████████████ 100%]
+
+Starting System Checks...
+---------------------------------------------------
+Memory: OK
+CPU: OK
+Display: OK
+Sensors: OK
+---------------------------------------------------
+STATUS: All systems nominal
+
+Launching ARQ-TEC Interface...
+---------------------------------------------------
+[███████████████████████████ 100%]
+
+Welcome to the ARQ-TEC Development Environment
+
+> ACCESSING USER DATA
+> Establishing connection to user profile...
+> User profile found
+> Loading user profile data...
+
+---------------------------------------------------
+Welcome, Surface Dweller #196
+---------------------------------------------------
+Press any key to continue...
+
+> Initiating portfolio overview...
+> Loading...
+
+---------------------------------------------------
+[███████████████████████████ 100%]

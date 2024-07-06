@@ -1,0 +1,18 @@
+$theme: (
+    --primary: var(--primary),
+    --color-active: hsl(from var(--primary) h s l / 0.6),
+    --color-hover: hsl(from var(--primary) h s l / 0.2),
+    --bg-color: var(--background-color),
+    --closed-border-gradient:
+        linear-gradient(
+            0deg,
+            var(--primary) 15%,
+            var(--background-color) 30%,
+            var(--background-color) 70%,
+            var(--primary) 85%
+        ),
+);
+
+@function get($var) {
+    @return map-get($theme, $var);
+}

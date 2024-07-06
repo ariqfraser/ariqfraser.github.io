@@ -1,0 +1,9 @@
+:host {
+    display: block;
+    height: calc(100vh - (6rem * 2));
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
