@@ -1,7 +1,7 @@
 @import "themes";
 
 button {
-    background-color: transparent;
+    background-color: get(--bg-color);
     color: get(--primary);
     border: 2px solid transparent;
     cursor: pointer;

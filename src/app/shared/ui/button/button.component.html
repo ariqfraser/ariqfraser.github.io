@@ -1,3 +1,6 @@
-<button [ngClass]="{ active: isActive(), 'full-width': fullWidth() }">
+<button
+    class="theme-green"
+    [ngClass]="{ active: isActive(), 'full-width': fullWidth() }"
+>
     <ng-content></ng-content>
 </button>

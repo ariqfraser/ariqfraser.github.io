@@ -1,0 +1,15 @@
+@import "themes";
+
+:host {
+    width: calc(100vw - 12rem);
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}

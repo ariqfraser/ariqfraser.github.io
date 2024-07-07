@@ -1,4 +1,4 @@
-import { Component, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
+import { Component, CUSTOM_ELEMENTS_SCHEMA, signal } from "@angular/core";
 import { ButtonComponent } from "@shared/ui/button/button.component";
 
 @Component({
@@ -9,4 +9,6 @@ import { ButtonComponent } from "@shared/ui/button/button.component";
     styleUrl: "./stats.component.scss",
     schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class StatsComponent {}
+export class StatsComponent {
+    filter = signal<"fe" | "be" | "db" | "misc">("fe");
+}

@@ -1,7 +1,7 @@
 $theme: (
     --primary: var(--primary),
-    --color-active: hsl(from var(--primary) h s l / 0.6),
-    --color-hover: hsl(from var(--primary) h s l / 0.2),
+    /* --color-hover: hsl(from var(--primary) h s l / 0.2), */ --color-hover:
+        rgb(from var(--primary) calc(r - 175) calc(g - 175) calc(b - 175)),
     --bg-color: var(--background-color),
     --closed-border-gradient:
         linear-gradient(
